@@ -12,8 +12,8 @@ pipeline {
   }
   environment {
     //these will be used throughout the Pipeline
-    DOCKER_HUB_USER = 'beedemo'
-    DOCKER_CREDENTIAL_ID = 'docker-hub-beedemo'
+    DOCKER_HUB_USER = 'abw61'
+    DOCKER_CREDENTIAL_ID = 'AW-docker-hub'
   }
   stages {
     stage("Build Cache Image") {
