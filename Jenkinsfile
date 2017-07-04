@@ -13,7 +13,7 @@ pipeline {
   environment {
     //these will be used throughout the Pipeline
     DOCKER_HUB_USER = 'abw61'
-    DOCKER_CREDENTIAL_ID = 'AW-docker-hub'
+    DOCKER_CREDENTIAL_ID = 'AW_docker_hub'
   }
   stages {
     stage("Build Cache Image") {
